@@ -27,7 +27,7 @@ return billTotal.toFixed(2);
   var billString = billStringElement.value;
   //calling back the calculateBill function from the logic
   var returnBillString = calculateBill(billString)
-  
+
   billTotalElement.innerHTML = returnBillString;
 
    if(returnBillString > 20 && returnBillString < 30){

@@ -8,18 +8,6 @@ function BillSettingsUpdates() {
   var smsesTotal = 0;
   var totalTwoSetting = 0
 
-  // function updateSettings() {
-  //
-  //   if (updates != "") {
-  //     callCost = parseFloat(updates);
-  //   }
-  //   if (updates != "") {
-  //     smsCost = parseFloat(updates);
-  //   }
-  //   warningLevel = parseFloat(updates);
-  //
-  //   criticalLevel = parseFloat(updates);
-  // }
   function setCallCost(vale) {
     if (vale != "") {
         callCost = parseFloat(vale);
